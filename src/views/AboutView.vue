@@ -24,7 +24,8 @@
 .about {
   display: flex;
   gap: 5rem;
-  margin-top: 4rem;
+  margin-top: 6rem;
+  padding: 1rem;
 }
 p {
   max-width: 45rem;
