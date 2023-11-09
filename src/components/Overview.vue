@@ -10,21 +10,20 @@
     <h2>PROJECTS</h2>
       <div class="projects">
         <div class="project-pair">
-        <div>
-          <a href="https://github.com/bschulzke/cube_solver" target="_blank">Rubik's Cube Solver</a>
-          <iframe src="https://giphy.com/embed/kFuavIYvRQZGg" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></p>
+          <div>
+            <a href="https://github.com/bschulzke/cube_solver" target="_blank">Rubik's Cube Solver</a>
+            <iframe src="https://giphy.com/embed/kFuavIYvRQZGg" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen/>
+          </div>
+          <div>
+            <a href="https://www.shenan-again.com/" target="_blank">Digital Rulebook (Shenan-Agan)</a>
+            <img class="shenan-again" alt="Screenshot of Shift game" src="../assets/shenan-again.png" />
+          </div>
         </div>
-        <div>
-          <a href="https://www.shenan-again.com/" target="_blank">Digital Rulebook (Shenan-Agan)</a>
-          <img class="shenan-again" alt="Screenshot of Shift game" src="../assets/shenan-again.png" />
+        <div class="project-pair desktop">
+          <a href="https://github.com/bschulzke/mythos-shift" target="_blank">Shift: A 4D Puzzle</a>
+          <p>Explore four-dimensional maze that becomes progressively more challenging. Read the instructions and try it out below!</p>
+          <iframe src="https://bschulzke.github.io/mythos-shift/" width=100% height="360"/>
         </div>
-      </div>
-      <div class="project-pair">
-        <div>
-          <a href="https://github.com/bschulzke/mythos-shift" target="_blank">Shift: A 4D Puzzle / Maze</a>
-          <img class="shift-image" alt="Screenshot of Shift game" src="../assets/shift.png" />
-        </div>
-      </div>
     </div>
   </div>
 </template>
@@ -58,7 +57,9 @@ h2 {
   display: flex;
   margin-bottom: 1rem;
 }
-
+.banner {
+  margin-top: 3rem;
+}
 .shift-image {
   max-width: 60rem;
 }
@@ -79,13 +80,22 @@ a {
 .shenan-again {
   max-height: 22.5rem;
 }
+.desktop {
+  display: none;
+}
 @media only screen and (min-width: 900px) {
   h1 {
     display: block;
   }
-    .about {
+  .about {
     padding-top: 6rem;
-    padding-left: 6rem;
+    padding-left: 4rem;
+  }
+  .desktop {
+    display: block;
+  }
+  .mobile {
+    display: none;
   }
   iframe {
     max-width: none;
