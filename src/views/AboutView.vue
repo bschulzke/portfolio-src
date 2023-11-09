@@ -47,4 +47,7 @@ p {
     display: block;
   }
 }
+a {
+  color: #09b5bb;
+}
 </style>

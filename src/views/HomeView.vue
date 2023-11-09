@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div>
-      <Overview msg="UNDERSTAND, DEVELOP AND MAINTAIN SYSTEMS" />
+      <Overview msg="DESIGNING INNOVATIVE SYSTEMS" />
     </div>
   </div>
 </template>

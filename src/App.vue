@@ -15,9 +15,12 @@
   text-align: center;
   color: #2c3e50;
 }
-
+.desktop {
+  display: none;
+}
 nav {
-  padding: 30px;
+  padding: 2rem;
+  padding-bottom: 3rem;
   position: absolute;
   right: 0;
   left: 0;
@@ -30,7 +33,7 @@ nav {
 }
 
 a {
-  color: #42b5b9;
+  color: #bbf0f1;
   margin-bottom: 0.5rem;
 }
 

@@ -2,7 +2,7 @@
   <div class="about">
     <div class="banner">
       <h1>{{ msg }}</h1>
-      <p>
+      <p style="font-style: italic">
         I'm a fan of systems. Magic systems, game systems, and of course—computer
         systems. Here are a few of things I've been experimenting with in recent years.
       </p>
@@ -65,6 +65,7 @@ h2 {
 }
 a {
   display: flex;
+  color: #09b5bb;
 }
 .projects {
   display: flex;
