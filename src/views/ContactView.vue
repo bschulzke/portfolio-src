@@ -42,9 +42,10 @@
 
 <script>
 import emailjs from 'emailjs-com';
+
 export default {
-      name: 'ContactMe',
-  data() {
+    name: 'ContactMe',
+    data() {
     return {
       name: '',
       email: '',
