@@ -57,6 +57,7 @@ export default {
       emailjs.sendForm('service_8ttm8yk', 'template_3sti73b', this.$refs.form, '99wZUEga7zsJwe-6X')
         .then((result) => {
             console.log('SUCCESS!', result.text);
+            this.$refs.form.reset()
         }, (error) => {
             console.log('FAILED...', error.text);
         });
